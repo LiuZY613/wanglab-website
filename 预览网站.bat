@@ -1,6 +1,10 @@
 @echo off
 cd /d "%~dp0"
-echo Starting Wang Lab website...
+if not exist "node_modules\" (
+    echo 首次运行，正在安装依赖...
+    call npm install
+)
+echo 正在启动 Wang Lab 网站...
 start http://localhost:5173
 npx vitepress dev docs
 pause

@@ -6,15 +6,16 @@
 
 ## 如何打开网站
 
-```bash
-# 1. 安装依赖（仅首次）
-npm install
+**最简单：双击 `预览网站.bat`**，自动安装依赖并打开浏览器。
 
-# 2. 启动本地服务器
-npm run dev
+或手动执行：
+
+```bash
+npm install    # 仅首次
+npm run dev    # 启动本地服务器
 ```
 
-浏览器打开 `http://localhost:5173` 即可查看完整网站。
+浏览器打开 `http://localhost:5173` 即可浏览完整网站。
 
 ---
 
