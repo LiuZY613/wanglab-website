@@ -2,7 +2,7 @@
 
 Wang Lab — AI for Physics @ 中国科学院物理研究所
 
-> 🚀 [在线预览](https://stackblitz.com/~/github.com/wangleiphy/wanglab-website) *(部署后替换为正式链接)*
+> 🚀 网站上线后将在此处放置访问链接
 
 ---
 
