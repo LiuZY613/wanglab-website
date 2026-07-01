@@ -1,0 +1,26 @@
+backend:
+  name: gitlab
+  repo: codes/groupmeeting
+  branch: master
+  auth_type: pkce
+  app_id: GITLAB_APP_ID_PLACEHOLDER
+  base_url: https://code.itp.ac.cn
+  auth_endpoint: oauth/authorize
+
+media_folder: docs/public/files/uploads
+public_folder: /files/uploads
+
+collections:
+  - name: notes
+    label: 随心记
+    label_singular: 随笔
+    folder: docs/notes
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: 标题, name: title, widget: string }
+      - { label: 作者, name: author, widget: string }
+      - { label: 日期, name: date, widget: datetime, default: "{{now}}" }
+      - { label: 正文, name: body, widget: markdown }

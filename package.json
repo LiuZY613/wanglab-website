@@ -1,0 +1,15 @@
+{
+  "name": "wanglab-website",
+  "version": "1.0.0",
+  "description": "Wang Lab - AI for Physics @ IOP, CAS",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "prebuild": "node scripts/fetch-groupmeetings.js && node scripts/fetch-publications.js",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
