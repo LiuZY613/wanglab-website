@@ -40,7 +40,13 @@
   category: phd
   role: 博士生 (2023级)
   bio: Quantum Monte Carlo · Variational Monte Carlo
-  github:
+  github: Joe-Nor
+
+- name: Yuan Jiao
+  category: phd
+  role: 博士生 (2024级)
+  bio:
+  github: STOKES-DOT
 
 - name: Zongyue Liu
   category: phd
@@ -58,7 +64,7 @@
   category: alumni_phd
   role: PhD 2018 – 2024
   bio: Flow Matching · Free Energy Estimation
-  github:
+  github: DreamSkanda
 
 - name: Qi Yang
   category: alumni_phd
@@ -76,7 +82,7 @@
   category: alumni_phd
   role: PhD 2018 – 2023
   bio: → University of Zurich, Postdoc
-  github:
+  github: buwantaiji
 
 - name: Yueshui Zhang
   category: alumni_phd
