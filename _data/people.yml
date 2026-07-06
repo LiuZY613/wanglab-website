@@ -16,19 +16,19 @@
   category: phd
   role: 博士生
   bio: Crystal Structure Prediction · RL · LLMs
-  github: zdcao
+  github: zdcao121
 
 - name: Ruisi Wang
   category: phd
   role: 博士生
   bio: Molecular Vibrational Spectra · Neural Canonical Transformation
-  github:
+  github: ruiswang
 
 - name: Zihang Li
   category: phd
   role: 博士生
   bio: Hydrogen Hugoniot Curve · Quantum Chemistry
-  github:
+  github: ZihangL
 
 - name: Shigang Ou
   category: phd
@@ -52,7 +52,7 @@
   category: phd
   role: 博士生 (2026级)
   bio:
-  github:
+  github: Mao-Kexiang
 
 - name: Lu Zhao
   category: alumni_phd
@@ -64,13 +64,13 @@
   category: alumni_phd
   role: PhD 2019 – 2024
   bio: → University of Amsterdam, Postdoc
-  github:
+  github: qiyang-ustc
 
 - name: Xingyu Zhang
   category: alumni_phd
   role: PhD 2019 – 2024
   bio: → Ghent University, Postdoc
-  github:
+  github: XingyuZhang2018
 
 - name: Hao Xie
   category: alumni_phd
@@ -82,13 +82,13 @@
   category: alumni_phd
   role: PhD 2017 – 2023
   bio: → LMU Munich, Postdoc
-  github:
+  github: ZhangYueShui
 
 - name: Wei Tang
   category: alumni_phd
   role: PhD 2016 – 2021
   bio: → Ghent University, Postdoc (co-supervised)
-  github:
+  github: tangwei94
 
 - name: Hong-Bin Ren
   category: alumni_phd
@@ -100,16 +100,16 @@
   category: alumni_phd
   role: PhD 2015 – 2020
   bio: → HKUST, Research Assistant Professor
-  github:
+  github: shaohui192
 
 - name: Shuang Liang
   category: alumni_postdoc
   role: Postdoc 2021 – 2023
   bio: → IOP
-  github:
+  github: Sharon-Liang
 
 - name: Jin-Guo Liu
   category: alumni_postdoc
   role: Postdoc 2017 – 2019
   bio: → HKUST-GZ, Assistant Professor
-  github:
+  github: GiggleLiu
