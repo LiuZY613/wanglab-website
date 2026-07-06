@@ -1,46 +1,115 @@
 - name: 王磊 (Lei Wang)
-  role: PI / 研究员 · 博士生导师
+  category: pi
+  role: 研究员 / 博士生导师
   bio: 深度学习 · 量子算法 · 量子多体计算
   github: wangleiphy
   homepage: https://wangleiphy.github.io/
 
 - name: Qi Zhang
+  category: postdoc
   role: 博士后
   bio: Quantum Solids · High-Pressure Ice · Anharmonic Vibrations
   github:
   homepage: https://blog.8950509.xyz/
 
 - name: Zhendong Cao
+  category: phd
   role: 博士生
   bio: Crystal Structure Prediction · RL · LLMs
   github: zdcao
 
 - name: Ruisi Wang
+  category: phd
   role: 博士生
   bio: Molecular Vibrational Spectra · Neural Canonical Transformation
   github:
 
 - name: Zihang Li
+  category: phd
   role: 博士生
   bio: Hydrogen Hugoniot Curve · Quantum Chemistry
   github:
 
 - name: Shigang Ou
+  category: phd
   role: 博士生
   bio: Superconductor Discovery · Crystal Generative Models
   github:
 
 - name: Bei Qiao
+  category: phd
   role: 博士生
   bio: Quantum Monte Carlo · Variational Monte Carlo
   github:
 
 - name: Zongyue Liu
+  category: phd
   role: 博士生 (2026级)
   bio: GPU Code Optimization · AI-Assisted Programming
   github: LiuZY613
 
 - name: Kexiang Mao
+  category: phd
   role: 博士生 (2026级)
   bio:
+  github:
+
+- name: Lu Zhao
+  category: alumni_phd
+  role: PhD 2018 – 2024
+  bio: Flow Matching · Free Energy Estimation
+  github:
+
+- name: Qi Yang
+  category: alumni_phd
+  role: PhD 2019 – 2024
+  bio: → University of Amsterdam, Postdoc
+  github:
+
+- name: Xingyu Zhang
+  category: alumni_phd
+  role: PhD 2019 – 2024
+  bio: → Ghent University, Postdoc
+  github:
+
+- name: Hao Xie
+  category: alumni_phd
+  role: PhD 2018 – 2023
+  bio: → University of Zurich, Postdoc
+  github:
+
+- name: Yueshui Zhang
+  category: alumni_phd
+  role: PhD 2017 – 2023
+  bio: → LMU Munich, Postdoc
+  github:
+
+- name: Wei Tang
+  category: alumni_phd
+  role: PhD 2016 – 2021
+  bio: → Ghent University, Postdoc (co-supervised)
+  github:
+
+- name: Hong-Bin Ren
+  category: alumni_phd
+  role: PhD 2016 – 2021
+  bio: → Baidu Quantum (co-supervised)
+  github:
+
+- name: Shuo-Hui Li
+  category: alumni_phd
+  role: PhD 2015 – 2020
+  bio: → HKUST, Research Assistant Professor
+  github:
+
+- name: Shuang Liang
+  category: alumni_postdoc
+  role: Postdoc 2021 – 2023
+  bio: → IOP
+  github:
+
+- name: Jin-Guo Liu
+  category: alumni_postdoc
+  role: Postdoc 2017 – 2019
+  bio: → HKUST-GZ, Assistant Professor
   github:
