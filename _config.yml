@@ -1,0 +1,12 @@
+title: Wang Lab
+description: AI for Physics @ Institute of Physics, CAS
+baseurl: "/wanglab-website"
+url: "https://liuzy613.github.io"
+
+theme: null
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
