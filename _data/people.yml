@@ -9,7 +9,7 @@
   category: postdoc
   role: 博士后
   bio: Quantum Solids · High-Pressure Ice · Anharmonic Vibrations
-  github:
+  github: zhangqi94
   homepage: https://blog.8950509.xyz/
 
 - name: Zhendong Cao
@@ -22,7 +22,7 @@
   category: phd
   role: 博士生
   bio: Molecular Vibrational Spectra · Neural Canonical Transformation
-  github: ruiswang
+  github: Callo42
 
 - name: Zihang Li
   category: phd
@@ -32,9 +32,9 @@
 
 - name: Shigang Ou
   category: phd
-  role: 博士生
+  role: 博士生 (2023级)
   bio: Superconductor Discovery · Crystal Generative Models
-  github:
+  github: Osgood001
 
 - name: Bei Qiao
   category: phd

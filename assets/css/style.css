@@ -137,6 +137,15 @@ main p {
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
+.people-card .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.65rem;
+  display: block;
+}
+
 .people-card:hover {
   border-color: var(--c-accent);
   box-shadow: 0 2px 12px rgba(74, 108, 247, 0.08);

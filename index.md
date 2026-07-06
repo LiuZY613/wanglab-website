@@ -29,6 +29,7 @@ layout: default
 <div class="people-grid">
 {% for p in members %}
 <div class="people-card">
+  {% if p.github %}<img class="avatar" src="https://github.com/{{ p.github }}.png" alt="{{ p.name }}">{% endif %}
   <h3>{{ p.name }}</h3>
   <div class="role">{{ p.role }}</div>
   {% if p.bio %}<div class="bio">{{ p.bio }}</div>{% endif %}
