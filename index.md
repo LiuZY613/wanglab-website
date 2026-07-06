@@ -44,6 +44,7 @@ layout: default
 
 ### GitHub Organizations
 
+<div class="link-grid">
 <div class="link-card">
   <h3><a href="https://github.com/fermiflow" target="_blank">fermiflow</a></h3>
   <p>Fermionic and quantum many-body computation tools and libraries.</p>
@@ -58,9 +59,11 @@ layout: default
   <h3><a href="https://github.com/TensorBFS" target="_blank">TensorBFS</a></h3>
   <p>Tensor network methods and numerical simulation frameworks.</p>
 </div>
+</div>
 
 ### Courses
 
+<div class="link-grid">
 <div class="link-card">
   <h3><a href="https://github.com/QuantumBFS/SSSS" target="_blank">SSSS</a></h3>
   <p>Summer School on Scientific Software and Skills — 科学计算与软件暑期学校。</p>
@@ -69,4 +72,5 @@ layout: default
 <div class="link-card">
   <h3><a href="https://github.com/wangleiphy/ml4p" target="_blank">ml4p</a></h3>
   <p>Machine Learning for Physics — 面向物理研究的机器学习课程。</p>
+</div>
 </div>

@@ -7,7 +7,7 @@
   --c-border: #d0d7de;
   --c-bg: #ffffff;
   --c-bg-soft: #f6f8fa;
-  --max-width: 900px;
+  --max-width: 1200px;
 }
 
 html { font-size: 16px; }
@@ -90,7 +90,7 @@ main p { margin-bottom: 0.9rem; line-height: 1.7; }
 /* People grid */
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
   margin: 0.5rem 0 1.5rem;
 }
@@ -133,10 +133,16 @@ main p { margin-bottom: 0.9rem; line-height: 1.7; }
   margin-right: 0.6rem;
 }
 
-/* Link cards */
+/* Link cards grid */
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
 .link-card {
   padding: 1rem 1.2rem;
-  margin-bottom: 0.75rem;
   border: 1px solid var(--c-border);
   border-radius: 8px;
   transition: border-color 0.15s;
