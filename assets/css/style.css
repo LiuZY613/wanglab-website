@@ -7,7 +7,8 @@
   --c-border: #d0d7de;
   --c-bg: #ffffff;
   --c-bg-soft: #f6f8fa;
-  --max-width: 1200px;
+  --max-width: none;
+  --pad-x: 3rem;
 }
 
 html { font-size: 16px; }
@@ -30,9 +31,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 1.5rem 1.5rem 1rem;
+  padding: 1.5rem var(--pad-x) 1rem;
   border-bottom: 1px solid var(--c-border);
 }
 
@@ -50,10 +49,7 @@ nav a:hover { color: var(--c-text); text-decoration: none; }
 /* Main */
 main {
   flex: 1;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 3rem 1.5rem 4rem;
-  width: 100%;
+  padding: 3rem var(--pad-x) 4rem;
 }
 
 main h1 {
@@ -171,21 +167,18 @@ main hr {
 
 /* Footer */
 footer {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem var(--pad-x);
   border-top: 1px solid var(--c-border);
   color: var(--c-muted);
   font-size: 0.82rem;
-  width: 100%;
 }
 
 footer a { color: var(--c-muted); }
 
 /* Responsive */
 @media (max-width: 640px) {
+  :root { --pad-x: 1rem; }
   header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .people-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
-  main { padding: 2rem 1rem 3rem; }
   main h1 { font-size: 1.6rem; }
 }
